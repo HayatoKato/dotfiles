@@ -13,8 +13,7 @@ dotfiles
         $ cd dotfiles
         $ ./setup.sh
 
-3. Install plugin
-        run this command after open vimfile.
+3. Run this command to install plugin after open vimfile.
 
         :NeoBundleInstall
 
