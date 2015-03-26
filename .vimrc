@@ -20,4 +20,4 @@ source ~/dotfiles/.vimrc.colors
 source ~/dotfiles/.vimrc.encoding
 
 "PHP関連
-source ~/dotfiles/.vimrc.php
+source ~/dotfiles/.vimrc.setphp
