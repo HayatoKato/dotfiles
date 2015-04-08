@@ -1,4 +1,0 @@
-<?php
-afdsafa
-a
-?>
