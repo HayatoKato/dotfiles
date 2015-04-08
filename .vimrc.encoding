@@ -13,9 +13,3 @@ if exists("&ambiwidth")
     set ambiwidth=double
     endif
 
-"文字コード自動判別
-if &encoding !=# 'utf-8'
-    set encoding=japan
-    endif
-    set fileencoding=japan
-
