@@ -31,3 +31,6 @@ let g:syntastic_javascript_checkers=['jshint']
 let g:syntastic_php_checkers=['php','phpcs']
 let g:syntastic_quite_warnings=0
 
+" vdebug
+NeoBundle 'joonty/vdebug'
+
