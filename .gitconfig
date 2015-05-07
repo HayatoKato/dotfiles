@@ -1,4 +1,6 @@
 [user]
+	name = Hayato Kato
+	email = kato.hayato@willgate.co.jp
 
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
@@ -8,8 +10,7 @@
 
 [color]
 	ui = auto
+
 [merge]
 	tool = meld
-[user]
-	name = Hayato Kato
-	email = kato.hayato@willgate.co.jp
+
