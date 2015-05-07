@@ -7,6 +7,9 @@
 	lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	st = status
 	conflicts = !git ls-files -u | cut -f 2 | sort -u
+	ch = checkout
+	chb = checkout -b
+	br = branch
 
 [color]
 	ui = auto
