@@ -18,4 +18,9 @@ source ~/.git-completion.sh
 
 # Show git command suggest
 source ~/dotfiles/bin/git-completion.bash
+export HOMEBREW_CACHE=~/Library/Caches/Homebrew
 
+#ruby
+export PATH=/usr/local:$PATH
+export PATH="$HOME/.rbenv/bin:$PATH"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
