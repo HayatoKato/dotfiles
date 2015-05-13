@@ -9,7 +9,10 @@
 	conflicts = !git ls-files -u | cut -f 2 | sort -u
 	ch = checkout
 	chb = checkout -b
+	chm = checkout master
+	chd = checkout develop
 	br = branch
+	brd = branch -D
 
 [color]
 	ui = auto
