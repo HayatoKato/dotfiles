@@ -31,6 +31,9 @@ let g:syntastic_javascript_checkers=['jshint']
 let g:syntastic_php_checkers=['php','phpcs']
 let g:syntastic_quite_warnings=0
 
-" vdebug
+" Vdebug
 NeoBundle 'joonty/vdebug'
+
+" Multiple cursors
+NeoBundle 'terryma/vim-multiple-cursors'
 
