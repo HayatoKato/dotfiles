@@ -20,3 +20,6 @@ export HOMEBREW_CACHE=~/Library/Caches/Homebrew
 export PATH=/usr/local:$PATH
 export PATH="$HOME/.rbenv/bin:$PATH"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# zsh
+zsh
