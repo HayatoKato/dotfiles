@@ -11,9 +11,6 @@ alias rep='find . -type f -print0 | xargs -0 sed -i -e'
 # Aws script
 alias ec2mdkn='python /home/aws/ec2_info.py /home/aws/access_key_mdkn'
 
-# Show git branch name
-PS1='[\u@\h \W$(__git_ps1 " \e[0;32m\]%s\e[0;37m\]")]\$ '
-
 # Show git command suggest
 source ~/dotfiles/bin/git-prompt.sh
 source ~/dotfiles/bin/git-completion.bash
