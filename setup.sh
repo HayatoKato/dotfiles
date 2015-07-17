@@ -12,5 +12,6 @@ done
 
 # install zsh
 brew install zsh
+yum -y install zsh
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 
