@@ -21,3 +21,7 @@ source ~/dotfiles/.vimrc.encoding
 
 "PHP関連
 source ~/dotfiles/.vimrc.setphp
+
+"HTML/CSS/SASS関連
+source ~/dotfiles/.vimrc.sethtml
+
