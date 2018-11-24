@@ -13,6 +13,7 @@
 	chd = checkout develop
 	br = branch
 	brd = branch -D
+	brda = "!f () { git checkout $1; git branch --merged|egrep -v '\\*|develop|master'|xargs git branch -d; };f"
 
 [color]
 	ui = auto
